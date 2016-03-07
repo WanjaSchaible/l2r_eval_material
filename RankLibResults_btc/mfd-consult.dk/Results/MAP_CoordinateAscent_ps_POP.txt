@@ -1,0 +1,309 @@
+
+[+] General Parameters:
+Training data:	/data3/jschaible/BTC_l2r/EvalData/L2R_Evaluation/mfd-consult.dk/foldsPOP/train_ps
+Test data:	/data3/jschaible/BTC_l2r/EvalData/L2R_Evaluation/mfd-consult.dk/foldsPOP/test_ps
+Feature vector representation: Dense.
+Ranking method:	Coordinate Ascent
+Feature description file:	Unspecified. All features will be used.
+Train metric:	MAP
+Test metric:	MAP
+Feature normalization: No
+
+[+] Coordinate Ascent's Parameters:
+No. of random restarts: 5
+No. of iterations to search in each direction: 25
+Tolerance: 0.001
+Regularization: No
+
+
+Reading feature file [/data3/jschaible/BTC_l2r/EvalData/L2R_Evaluation/mfd-consult.dk/foldsPOP/train_ps]: 0... 
+Reading feature file [/data3/jschaible/BTC_l2r/EvalData/L2R_Evaluation/mfd-consult.dk/foldsPOP/train_ps]: 0... 
+Reading feature file [/data3/jschaible/BTC_l2r/EvalData/L2R_Evaluation/mfd-consult.dk/foldsPOP/train_ps]: 0... 
+Reading feature file [/data3/jschaible/BTC_l2r/EvalData/L2R_Evaluation/mfd-consult.dk/foldsPOP/train_ps]: 0... 
+Reading feature file [/data3/jschaible/BTC_l2r/EvalData/L2R_Evaluation/mfd-consult.dk/foldsPOP/train_ps]: 0... 
+Reading feature file [/data3/jschaible/BTC_l2r/EvalData/L2R_Evaluation/mfd-consult.dk/foldsPOP/train_ps]... [Done.]            
+(149 ranked lists, 44700 entries read)
+
+Reading feature file [/data3/jschaible/BTC_l2r/EvalData/L2R_Evaluation/mfd-consult.dk/foldsPOP/test_ps]: 0... 
+Reading feature file [/data3/jschaible/BTC_l2r/EvalData/L2R_Evaluation/mfd-consult.dk/foldsPOP/test_ps]: 0... 
+Reading feature file [/data3/jschaible/BTC_l2r/EvalData/L2R_Evaluation/mfd-consult.dk/foldsPOP/test_ps]: 0... 
+Reading feature file [/data3/jschaible/BTC_l2r/EvalData/L2R_Evaluation/mfd-consult.dk/foldsPOP/test_ps]: 0... 
+Reading feature file [/data3/jschaible/BTC_l2r/EvalData/L2R_Evaluation/mfd-consult.dk/foldsPOP/test_ps]: 0... 
+Reading feature file [/data3/jschaible/BTC_l2r/EvalData/L2R_Evaluation/mfd-consult.dk/foldsPOP/test_ps]... [Done.]            
+(143 ranked lists, 42900 entries read)
+Initializing... [Done]
+---------------------------
+Training starts...
+---------------------------
+[+] Random restart #1/5...
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | MAP     | 
+------------------------------
+1       | +0.3343  | 0.3119  | 
+1       | +0.3403  | 0.312   | 
+1       | +0.3483  | 0.312   | 
+1       | +0.3643  | 0.312   | 
+1       | +0.3963  | 0.3121  | 
+1       | +0.4603  | 0.3121  | 
+1       | +0.5883  | 0.3123  | 
+1       | +0.8443  | 0.3124  | 
+1       | +1.3563  | 0.3132  | 
+1       | +2.3803  | 0.3146  | 
+1       | +4.4283  | 0.3165  | 
+1       | +8.5243  | 0.3207  | 
+1       | +16.7163 | 0.3249  | 
+1       | +33.1003 | 0.3351  | 
+1       | +65.8683 | 0.3545  | 
+1       | +131.404 | 0.3593  | 
+2       | -5.0E-4  | 0.3593  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | MAP     | 
+------------------------------
+1       | +1.0     | 0.3594  | 
+1       | +1.06    | 0.3604  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | MAP     | 
+------------------------------
+1       | +1.0042  | 0.3607  | 
+2       | -1.0E-4  | 0.3608  | 
+2       | +2.0E-4  | 0.3608  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | MAP     | 
+------------------------------
+2       | +6.0E-4  | 0.3608  | 
+------------------------------
+[+] Random restart #2/5...
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | MAP     | 
+------------------------------
+1       | +0.3343  | 0.3119  | 
+1       | +0.3403  | 0.312   | 
+1       | +0.3483  | 0.312   | 
+1       | +0.3643  | 0.312   | 
+1       | +0.3963  | 0.3121  | 
+1       | +0.4603  | 0.3121  | 
+1       | +0.5883  | 0.3123  | 
+1       | +0.8443  | 0.3124  | 
+1       | +1.3563  | 0.3132  | 
+1       | +2.3803  | 0.3146  | 
+1       | +4.4283  | 0.3165  | 
+1       | +8.5243  | 0.3207  | 
+1       | +16.7163 | 0.3249  | 
+1       | +33.1003 | 0.3351  | 
+1       | +65.8683 | 0.3545  | 
+1       | +131.404 | 0.3593  | 
+2       | -5.0E-4  | 0.3593  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | MAP     | 
+------------------------------
+1       | +1.0     | 0.3594  | 
+1       | +1.06    | 0.3604  | 
+2       | +0.001   | 0.3606  | 
+2       | +0.0024  | 0.3608  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | MAP     | 
+------------------------------
+2       | -0.0286  | 0.3621  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | MAP     | 
+------------------------------
+1       | +0.9768  | 0.3621  | 
+2       | -0.0267  | 0.3621  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | MAP     | 
+------------------------------
+1       | +0.972   | 0.3621  | 
+1       | +0.974   | 0.3621  | 
+------------------------------
+[+] Random restart #3/5...
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | MAP     | 
+------------------------------
+2       | +0.3343  | 0.3119  | 
+2       | +0.3363  | 0.3119  | 
+2       | +0.3403  | 0.312   | 
+2       | +0.3483  | 0.3121  | 
+2       | +0.3643  | 0.3122  | 
+2       | +0.3963  | 0.3123  | 
+2       | +0.4603  | 0.3125  | 
+2       | +0.5883  | 0.3131  | 
+2       | +0.8443  | 0.3139  | 
+2       | +1.3563  | 0.3151  | 
+2       | +2.3803  | 0.3171  | 
+2       | +4.4283  | 0.3203  | 
+2       | +8.5243  | 0.3226  | 
+2       | +16.7163 | 0.3245  | 
+2       | +65.8683 | 0.3325  | 
+3       | +0.006   | 0.3347  | 
+1       | +0.036   | 0.3348  | 
+1       | +0.068   | 0.335   | 
+1       | +0.132   | 0.3359  | 
+1       | +0.26    | 0.3393  | 
+1       | +1.028   | 0.3404  | 
+1       | +16.388  | 0.3415  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | MAP     | 
+------------------------------
+3       | +4.0E-4  | 0.3417  | 
+3       | +0.0025  | 0.3559  | 
+1       | +0.9417  | 0.356   | 
+1       | +0.9437  | 0.356   | 
+1       | +0.9557  | 0.356   | 
+1       | +0.9717  | 0.3576  | 
+2       | +0.0561  | 0.3576  | 
+2       | +0.0621  | 0.3576  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | MAP     | 
+------------------------------
+3       | +0.0054  | 0.3581  | 
+2       | +0.0624  | 0.3581  | 
+2       | +0.0644  | 0.3581  | 
+2       | +0.0924  | 0.3585  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | MAP     | 
+------------------------------
+------------------------------
+[+] Random restart #4/5...
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | MAP     | 
+------------------------------
+1       | +0.3343  | 0.3119  | 
+1       | +0.3403  | 0.312   | 
+1       | +0.3483  | 0.312   | 
+1       | +0.3643  | 0.312   | 
+1       | +0.3963  | 0.3121  | 
+1       | +0.4603  | 0.3121  | 
+1       | +0.5883  | 0.3123  | 
+1       | +0.8443  | 0.3124  | 
+1       | +1.3563  | 0.3132  | 
+1       | +2.3803  | 0.3146  | 
+1       | +4.4283  | 0.3165  | 
+1       | +8.5243  | 0.3207  | 
+1       | +16.7163 | 0.3249  | 
+1       | +33.1003 | 0.3351  | 
+1       | +65.8683 | 0.3545  | 
+1       | +131.404 | 0.3593  | 
+2       | -5.0E-4  | 0.3593  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | MAP     | 
+------------------------------
+1       | +1.0     | 0.3594  | 
+1       | +1.06    | 0.3604  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | MAP     | 
+------------------------------
+1       | +1.0042  | 0.3607  | 
+2       | -1.0E-4  | 0.3608  | 
+2       | +2.0E-4  | 0.3608  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | MAP     | 
+------------------------------
+2       | +6.0E-4  | 0.3608  | 
+------------------------------
+[+] Random restart #5/5...
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | MAP     | 
+------------------------------
+1       | +0.3343  | 0.3119  | 
+1       | +0.3403  | 0.312   | 
+1       | +0.3483  | 0.312   | 
+1       | +0.3643  | 0.312   | 
+1       | +0.3963  | 0.3121  | 
+1       | +0.4603  | 0.3121  | 
+1       | +0.5883  | 0.3123  | 
+1       | +0.8443  | 0.3124  | 
+1       | +1.3563  | 0.3132  | 
+1       | +2.3803  | 0.3146  | 
+1       | +4.4283  | 0.3165  | 
+1       | +8.5243  | 0.3207  | 
+1       | +16.7163 | 0.3249  | 
+1       | +33.1003 | 0.3351  | 
+1       | +65.8683 | 0.3545  | 
+1       | +131.404 | 0.3593  | 
+2       | -5.0E-4  | 0.3593  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | MAP     | 
+------------------------------
+1       | +1.0     | 0.3594  | 
+1       | +1.06    | 0.3604  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | MAP     | 
+------------------------------
+1       | +1.0042  | 0.3607  | 
+2       | -1.0E-4  | 0.3608  | 
+2       | +2.0E-4  | 0.3608  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | MAP     | 
+------------------------------
+2       | +6.0E-4  | 0.3608  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | MAP     | 
+------------------------------
+2       | +8.0E-4  | 0.3609  | 
+------------------------------
+---------------------------------
+Finished sucessfully.
+MAP on training data: 0.3621
+---------------------------------
+MAP on test data: 0.1934

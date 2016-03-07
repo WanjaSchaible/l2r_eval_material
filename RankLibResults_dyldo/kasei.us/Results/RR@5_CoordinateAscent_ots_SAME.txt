@@ -1,0 +1,305 @@
+
+[+] General Parameters:
+Training data:	/data1/wschaible/dyldo/DyLDO_l2r/EvalData/L2R_Evaluation/kasei.us/foldsSAME/train_ots
+Test data:	/data1/wschaible/dyldo/DyLDO_l2r/EvalData/L2R_Evaluation/kasei.us/foldsSAME/test_ots
+Feature vector representation: Dense.
+Ranking method:	Coordinate Ascent
+Feature description file:	Unspecified. All features will be used.
+Train metric:	RR@5
+Test metric:	RR@5
+Feature normalization: No
+
+[+] Coordinate Ascent's Parameters:
+No. of random restarts: 5
+No. of iterations to search in each direction: 25
+Tolerance: 0.001
+Regularization: No
+
+
+Reading feature file [/data1/wschaible/dyldo/DyLDO_l2r/EvalData/L2R_Evaluation/kasei.us/foldsSAME/train_ots]: 0... 
+Reading feature file [/data1/wschaible/dyldo/DyLDO_l2r/EvalData/L2R_Evaluation/kasei.us/foldsSAME/train_ots]... [Done.]            
+(21 ranked lists, 6300 entries read)
+
+Reading feature file [/data1/wschaible/dyldo/DyLDO_l2r/EvalData/L2R_Evaluation/kasei.us/foldsSAME/test_ots]: 0... 
+Reading feature file [/data1/wschaible/dyldo/DyLDO_l2r/EvalData/L2R_Evaluation/kasei.us/foldsSAME/test_ots]... [Done.]            
+(24 ranked lists, 7200 entries read)
+Initializing... [Done]
+---------------------------
+Training starts...
+---------------------------
+[+] Random restart #1/5...
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | RR@5    | 
+------------------------------
+1       | +0.377   | 0.602   | 
+1       | +0.505   | 0.6022  | 
+1       | +0.761   | 0.6029  | 
+1       | +2.297   | 0.6039  | 
+1       | +4.345   | 0.6057  | 
+1       | +8.441   | 0.6091  | 
+1       | +16.633  | 0.614   | 
+1       | +33.017  | 0.6323  | 
+1       | +65.785  | 0.6359  | 
+1       | +131.321 | 0.6465  | 
+1       | +262.393 | 0.7044  | 
+1       | +524.537 | 0.7163  | 
+4       | +1.56    | 0.7177  | 
+4       | +3.1195  | 0.7199  | 
+4       | +6.2386  | 0.7206  | 
+4       | +12.4767 | 0.7214  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | RR@5    | 
+------------------------------
+1       | +0.2011  | 0.723   | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | RR@5    | 
+------------------------------
+------------------------------
+[+] Random restart #2/5...
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | RR@5    | 
+------------------------------
+2       | +0.313   | 0.602   | 
+2       | +0.377   | 0.6022  | 
+2       | +0.505   | 0.6037  | 
+2       | +0.761   | 0.6045  | 
+2       | +1.273   | 0.6053  | 
+2       | +2.297   | 0.6074  | 
+2       | +4.345   | 0.6139  | 
+2       | +8.441   | 0.6185  | 
+2       | +16.633  | 0.6462  | 
+2       | +33.017  | 0.6592  | 
+2       | +65.785  | 0.683   | 
+2       | +131.321 | 0.691   | 
+1       | +1.5525  | 0.7124  | 
+1       | +6.2045  | 0.7163  | 
+4       | +1.7226  | 0.7182  | 
+4       | +3.4449  | 0.7202  | 
+4       | +13.779  | 0.7206  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | RR@5    | 
+------------------------------
+1       | +0.1853  | 0.7215  | 
+4       | -1.2197  | 0.7227  | 
+2       | +0.003   | 0.7227  | 
+2       | -0.001   | 0.7227  | 
+2       | -0.009   | 0.7227  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | RR@5    | 
+------------------------------
+2       | -0.012   | 0.7227  | 
+4       | +1.1764  | 0.7265  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | RR@5    | 
+------------------------------
+4       | +0.8939  | 0.7265  | 
+4       | +0.3899  | 0.7281  | 
+------------------------------
+[+] Random restart #3/5...
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | RR@5    | 
+------------------------------
+4       | +0.761   | 0.6016  | 
+4       | +1.273   | 0.6019  | 
+4       | +2.297   | 0.602   | 
+4       | +4.345   | 0.6021  | 
+4       | +8.441   | 0.6022  | 
+4       | +16.633  | 0.6024  | 
+4       | +33.017  | 0.6026  | 
+4       | +65.785  | 0.6027  | 
+4       | +131.321 | 0.603   | 
+4       | +262.393 | 0.6035  | 
+4       | +524.537 | 0.6055  | 
+4       | +1048.82 | 0.6073  | 
+4       | +2097.40 | 0.6106  | 
+1       | +2.0E-4  | 0.611   | 
+1       | +5.0E-4  | 0.6116  | 
+1       | +9.0E-4  | 0.6124  | 
+1       | +0.0016  | 0.6132  | 
+1       | +0.0032  | 0.6149  | 
+1       | +0.0062  | 0.6162  | 
+1       | +0.0123  | 0.6253  | 
+1       | +0.0245  | 0.6353  | 
+1       | +0.0489  | 0.6519  | 
+1       | +0.0977  | 0.6837  | 
+1       | +0.1953  | 0.709   | 
+1       | +0.3906  | 0.7199  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | RR@5    | 
+------------------------------
+1       | +0.2179  | 0.7205  | 
+4       | +1.0223  | 0.721   | 
+4       | +1.7903  | 0.7214  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | RR@5    | 
+------------------------------
+1       | +0.1779  | 0.7221  | 
+4       | -1.2145  | 0.7227  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | RR@5    | 
+------------------------------
+4       | -1.1338  | 0.7227  | 
+4       | -1.9018  | 0.7227  | 
+1       | +0.0529  | 0.7227  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | RR@5    | 
+------------------------------
+------------------------------
+[+] Random restart #4/5...
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | RR@5    | 
+------------------------------
+3       | +0.187   | 0.6022  | 
+3       | +0.123   | 0.6037  | 
+4       | +0.7974  | 0.6037  | 
+4       | +1.3094  | 0.604   | 
+4       | +2.3334  | 0.6041  | 
+4       | +4.3814  | 0.6042  | 
+4       | +8.4774  | 0.6043  | 
+4       | +16.6694 | 0.6046  | 
+4       | +33.0534 | 0.6046  | 
+4       | +65.8214 | 0.6047  | 
+4       | +131.357 | 0.6053  | 
+4       | +262.429 | 0.608   | 
+4       | +524.573 | 0.6085  | 
+4       | +1048.86 | 0.6117  | 
+1       | +0.002   | 0.6126  | 
+1       | +0.0038  | 0.6149  | 
+1       | +0.0072  | 0.6162  | 
+1       | +0.0142  | 0.6253  | 
+1       | +0.0282  | 0.6344  | 
+1       | +0.0561  | 0.6519  | 
+1       | +0.112   | 0.6837  | 
+1       | +0.2238  | 0.709   | 
+1       | +0.4473  | 0.7192  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | RR@5    | 
+------------------------------
+1       | +0.2781  | 0.7199  | 
+4       | +0.8397  | 0.7205  | 
+4       | +1.2237  | 0.7215  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | RR@5    | 
+------------------------------
+4       | +0.8409  | 0.7221  | 
+------------------------------
+[+] Random restart #5/5...
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | RR@5    | 
+------------------------------
+2       | +0.313   | 0.602   | 
+2       | +0.377   | 0.6022  | 
+2       | +0.505   | 0.6037  | 
+2       | +0.761   | 0.6045  | 
+2       | +1.273   | 0.6053  | 
+2       | +2.297   | 0.6074  | 
+2       | +4.345   | 0.6139  | 
+2       | +8.441   | 0.6185  | 
+2       | +16.633  | 0.6462  | 
+2       | +33.017  | 0.6592  | 
+2       | +65.785  | 0.683   | 
+2       | +131.321 | 0.691   | 
+4       | +1.5525  | 0.691   | 
+4       | +3.1032  | 0.6921  | 
+1       | +0.3785  | 0.7124  | 
+1       | +1.5128  | 0.7163  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | RR@5    | 
+------------------------------
+4       | +0.8122  | 0.7171  | 
+4       | +1.3242  | 0.7182  | 
+4       | +2.3482  | 0.7202  | 
+4       | +8.4922  | 0.7206  | 
+2       | +0.0035  | 0.7214  | 
+1       | +0.193   | 0.723   | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | RR@5    | 
+------------------------------
+2       | -0.0039  | 0.723   | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | RR@5    | 
+------------------------------
+2       | -0.0049  | 0.7241  | 
+2       | -0.0069  | 0.7241  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | RR@5    | 
+------------------------------
+2       | -0.0078  | 0.7241  | 
+2       | -0.0138  | 0.7241  | 
+4       | +0.7538  | 0.7257  | 
+1       | +0.1498  | 0.7265  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | RR@5    | 
+------------------------------
+2       | -0.0161  | 0.7265  | 
+4       | +0.5744  | 0.7281  | 
+------------------------------
+Shuffling features' order... [Done.]
+Optimizing weight vector... 
+------------------------------
+Feature | weight   | RR@5    | 
+------------------------------
+------------------------------
+---------------------------------
+Finished sucessfully.
+RR@5 on training data: 0.7281
+---------------------------------
+RR@5 on test data: 0.5842
