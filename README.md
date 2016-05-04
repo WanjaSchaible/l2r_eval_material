@@ -10,6 +10,6 @@ The contents are:
 -	The evaluation data from the DyLDO (http://swse.deri.org/dyldo/) dataset
 
 Both folders contain all folds with the
--	Data that was provided the RankLib library (https://people.cs.umass.edu/~vdang/ranklib.html) as input and 
+-	Data that was provided the RankLib library (https://sourceforge.net/p/lemur/wiki/RankLib/) as input and 
 -	Results for the SLP-feature based run (it includes all five feature) for the three best L2R algorithms.
 
